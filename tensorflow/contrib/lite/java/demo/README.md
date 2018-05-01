@@ -17,6 +17,10 @@
       - You also need to install the Android Support Repository, available
         through Android Studio under `Android SDK Manager -> SDK Tools ->
         Android Support Repository`.
+      - Alternatively, from the command-line:
+        ```shell
+        sdkmanager --install "extras;android;m2repository"
+        ```
 
   2. [Edit your `WORKSPACE`](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/examples/android#edit-workspace)
      to add SDK and NDK targets.
